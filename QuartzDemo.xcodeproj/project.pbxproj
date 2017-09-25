@@ -18,6 +18,8 @@
 		58B1D9E51F73B6AF00202CCA /* ConicalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1D9E41F73B6AF00202CCA /* ConicalViewController.m */; };
 		58B1D9E81F73B7E900202CCA /* RadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1D9E71F73B7E900202CCA /* RadarView.m */; };
 		58B1D9EB1F73B98400202CCA /* ConicalLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1D9EA1F73B98400202CCA /* ConicalLayer.m */; };
+		58B1DA251F7898A700202CCA /* LinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA241F7898A700202CCA /* LinesViewController.m */; };
+		58B1DA281F78994B00202CCA /* LinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA271F78994B00202CCA /* LinesView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,10 @@
 		58B1D9E71F73B7E900202CCA /* RadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarView.m; sourceTree = "<group>"; };
 		58B1D9E91F73B98400202CCA /* ConicalLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConicalLayer.h; sourceTree = "<group>"; };
 		58B1D9EA1F73B98400202CCA /* ConicalLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConicalLayer.m; sourceTree = "<group>"; };
+		58B1DA231F7898A700202CCA /* LinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinesViewController.h; sourceTree = "<group>"; };
+		58B1DA241F7898A700202CCA /* LinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinesViewController.m; sourceTree = "<group>"; };
+		58B1DA261F78994B00202CCA /* LinesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinesView.h; sourceTree = "<group>"; };
+		58B1DA271F78994B00202CCA /* LinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinesView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,8 @@
 				58B1D9BE1F739FFE00202CCA /* MainViewController.m */,
 				58B1D9E31F73B6AF00202CCA /* ConicalViewController.h */,
 				58B1D9E41F73B6AF00202CCA /* ConicalViewController.m */,
+				58B1DA231F7898A700202CCA /* LinesViewController.h */,
+				58B1DA241F7898A700202CCA /* LinesViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -159,6 +167,8 @@
 				58B1D9EA1F73B98400202CCA /* ConicalLayer.m */,
 				58B1D9E61F73B7E900202CCA /* RadarView.h */,
 				58B1D9E71F73B7E900202CCA /* RadarView.m */,
+				58B1DA261F78994B00202CCA /* LinesView.h */,
+				58B1DA271F78994B00202CCA /* LinesView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -269,11 +279,13 @@
 			files = (
 				58B1D9EB1F73B98400202CCA /* ConicalLayer.m in Sources */,
 				58B1D9DE1F73AD8A00202CCA /* Scene.m in Sources */,
+				58B1DA251F7898A700202CCA /* LinesViewController.m in Sources */,
 				58B1D9E51F73B6AF00202CCA /* ConicalViewController.m in Sources */,
 				58B1D9BF1F739FFE00202CCA /* MainViewController.m in Sources */,
 				58B1D9E81F73B7E900202CCA /* RadarView.m in Sources */,
 				58B1D9BC1F739FFE00202CCA /* AppDelegate.m in Sources */,
 				58B1D9B91F739FFE00202CCA /* main.m in Sources */,
+				58B1DA281F78994B00202CCA /* LinesView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

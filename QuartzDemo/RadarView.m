@@ -90,7 +90,7 @@ static NSString *const sRotateAnimationKey = @"sRotateAnimationKey";
 
 - (void)stopScan
 {
-    
+    [self.layer removeAnimationForKey:sRotateAnimationKey];
 }
 
 - (CABasicAnimation *)rotateAnimation

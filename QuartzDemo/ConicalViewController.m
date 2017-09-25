@@ -30,14 +30,14 @@
 {
     [super viewDidAppear:animated];
     
-//    [self.radarView startScan];
+    [self.radarView startScan];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
     
-//    [self.radarView stopScan];
+    [self.radarView stopScan];
 }
 
 - (void)configureConstraintsForRadarView
