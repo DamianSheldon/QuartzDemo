@@ -28,6 +28,8 @@
 		58B1DA3A1F79EBA600202CCA /* RectanglesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA391F79EBA600202CCA /* RectanglesViewController.m */; };
 		58B1DA3D1F79F4E700202CCA /* PathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA3C1F79F4E700202CCA /* PathViewController.m */; };
 		58B1DA401F79F4FD00202CCA /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA3F1F79F4FD00202CCA /* PathView.m */; };
+		58B1DA431F7A2A0000202CCA /* ColorSpacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA421F7A2A0000202CCA /* ColorSpacesViewController.m */; };
+		58B1DA461F7A2A1E00202CCA /* ColorSpacesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA451F7A2A1E00202CCA /* ColorSpacesView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,10 @@
 		58B1DA3C1F79F4E700202CCA /* PathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathViewController.m; sourceTree = "<group>"; };
 		58B1DA3E1F79F4FD00202CCA /* PathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathView.h; sourceTree = "<group>"; };
 		58B1DA3F1F79F4FD00202CCA /* PathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
+		58B1DA411F7A2A0000202CCA /* ColorSpacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSpacesViewController.h; sourceTree = "<group>"; };
+		58B1DA421F7A2A0000202CCA /* ColorSpacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSpacesViewController.m; sourceTree = "<group>"; };
+		58B1DA441F7A2A1E00202CCA /* ColorSpacesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSpacesView.h; sourceTree = "<group>"; };
+		58B1DA451F7A2A1E00202CCA /* ColorSpacesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSpacesView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +194,8 @@
 				58B1DA391F79EBA600202CCA /* RectanglesViewController.m */,
 				58B1DA3B1F79F4E700202CCA /* PathViewController.h */,
 				58B1DA3C1F79F4E700202CCA /* PathViewController.m */,
+				58B1DA411F7A2A0000202CCA /* ColorSpacesViewController.h */,
+				58B1DA421F7A2A0000202CCA /* ColorSpacesViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -209,6 +217,8 @@
 				58B1DA361F79EB8F00202CCA /* RectanglesView.m */,
 				58B1DA3E1F79F4FD00202CCA /* PathView.h */,
 				58B1DA3F1F79F4FD00202CCA /* PathView.m */,
+				58B1DA441F7A2A1E00202CCA /* ColorSpacesView.h */,
+				58B1DA451F7A2A1E00202CCA /* ColorSpacesView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -320,6 +330,7 @@
 				58B1D9EB1F73B98400202CCA /* ConicalLayer.m in Sources */,
 				58B1D9DE1F73AD8A00202CCA /* Scene.m in Sources */,
 				58B1DA251F7898A700202CCA /* LinesViewController.m in Sources */,
+				58B1DA461F7A2A1E00202CCA /* ColorSpacesView.m in Sources */,
 				58B1D9E51F73B6AF00202CCA /* ConicalViewController.m in Sources */,
 				58B1D9BF1F739FFE00202CCA /* MainViewController.m in Sources */,
 				58B1D9E81F73B7E900202CCA /* RadarView.m in Sources */,
@@ -334,6 +345,7 @@
 				58B1DA3A1F79EBA600202CCA /* RectanglesViewController.m in Sources */,
 				58B1DA2E1F78AD9300202CCA /* ArcsView.m in Sources */,
 				58B1DA2B1F78AD7B00202CCA /* ArcsViewController.m in Sources */,
+				58B1DA431F7A2A0000202CCA /* ColorSpacesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

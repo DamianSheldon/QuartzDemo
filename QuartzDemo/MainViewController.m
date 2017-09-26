@@ -13,6 +13,7 @@
 #import "EllipsesViewController.h"
 #import "RectanglesViewController.h"
 #import "PathViewController.h"
+#import "ColorSpacesViewController.h"
 
 #import "Scene.h"
 
@@ -153,7 +154,7 @@ static NSString *const sChapterCoreGraphicsLayerDrawing = @"Core Graphics Layer 
                             [[Scene alloc] initWithTitle:@"Path" class:[PathViewController class]]
                             ],
                     sChapterColorAndColorSpaces: @[
-                            [[Scene alloc] initWithTitle:@"Device Color Spaces" class:[UIViewController class]]
+                            [[Scene alloc] initWithTitle:@"Device Color Spaces" class:[ColorSpacesViewController class]]
                             ],
                     sChapterTransforms: @[
                             [[Scene alloc] initWithTitle:@"Transforms" class:[UIViewController class]]
