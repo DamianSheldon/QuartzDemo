@@ -34,6 +34,8 @@
 		58B1DA4C1F7A2F1100202CCA /* ColoredPatternsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA4B1F7A2F1100202CCA /* ColoredPatternsView.m */; };
 		58B1DA4F1F7A3B3300202CCA /* StencilPatternsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA4E1F7A3B3300202CCA /* StencilPatternsView.m */; };
 		58B1DA521F7A3B4A00202CCA /* StencilPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA511F7A3B4A00202CCA /* StencilPatternsViewController.m */; };
+		58B1DA551F7A3F9200202CCA /* ShadowsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA541F7A3F9200202CCA /* ShadowsViewController.m */; };
+		58B1DA581F7A3FA600202CCA /* ShadowsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA571F7A3FA600202CCA /* ShadowsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,10 @@
 		58B1DA4E1F7A3B3300202CCA /* StencilPatternsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StencilPatternsView.m; sourceTree = "<group>"; };
 		58B1DA501F7A3B4A00202CCA /* StencilPatternsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StencilPatternsViewController.h; sourceTree = "<group>"; };
 		58B1DA511F7A3B4A00202CCA /* StencilPatternsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StencilPatternsViewController.m; sourceTree = "<group>"; };
+		58B1DA531F7A3F9200202CCA /* ShadowsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowsViewController.h; sourceTree = "<group>"; };
+		58B1DA541F7A3F9200202CCA /* ShadowsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowsViewController.m; sourceTree = "<group>"; };
+		58B1DA561F7A3FA600202CCA /* ShadowsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowsView.h; sourceTree = "<group>"; };
+		58B1DA571F7A3FA600202CCA /* ShadowsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +218,8 @@
 				58B1DA481F7A2EF900202CCA /* ColoredPatternsViewController.m */,
 				58B1DA501F7A3B4A00202CCA /* StencilPatternsViewController.h */,
 				58B1DA511F7A3B4A00202CCA /* StencilPatternsViewController.m */,
+				58B1DA531F7A3F9200202CCA /* ShadowsViewController.h */,
+				58B1DA541F7A3F9200202CCA /* ShadowsViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -239,6 +247,8 @@
 				58B1DA4B1F7A2F1100202CCA /* ColoredPatternsView.m */,
 				58B1DA4D1F7A3B3300202CCA /* StencilPatternsView.h */,
 				58B1DA4E1F7A3B3300202CCA /* StencilPatternsView.m */,
+				58B1DA561F7A3FA600202CCA /* ShadowsView.h */,
+				58B1DA571F7A3FA600202CCA /* ShadowsView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -349,8 +359,10 @@
 			files = (
 				58B1DA521F7A3B4A00202CCA /* StencilPatternsViewController.m in Sources */,
 				58B1D9EB1F73B98400202CCA /* ConicalLayer.m in Sources */,
+				58B1DA551F7A3F9200202CCA /* ShadowsViewController.m in Sources */,
 				58B1D9DE1F73AD8A00202CCA /* Scene.m in Sources */,
 				58B1DA251F7898A700202CCA /* LinesViewController.m in Sources */,
+				58B1DA581F7A3FA600202CCA /* ShadowsView.m in Sources */,
 				58B1DA461F7A2A1E00202CCA /* ColorSpacesView.m in Sources */,
 				58B1D9E51F73B6AF00202CCA /* ConicalViewController.m in Sources */,
 				58B1D9BF1F739FFE00202CCA /* MainViewController.m in Sources */,

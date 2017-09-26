@@ -16,6 +16,7 @@
 #import "ColorSpacesViewController.h"
 #import "ColoredPatternsViewController.h"
 #import "StencilPatternsViewController.h"
+#import "ShadowsViewController.h"
 
 #import "Scene.h"
 
@@ -166,7 +167,7 @@ static NSString *const sChapterCoreGraphicsLayerDrawing = @"Core Graphics Layer 
                             [[Scene alloc] initWithTitle:@"Stencil Patterns" class:[StencilPatternsViewController class]]
                             ],
                     sChapterShadows: @[
-                            [[Scene alloc] initWithTitle:@"Shadows" class:[UIViewController class]]
+                            [[Scene alloc] initWithTitle:@"Shadows" class:[ShadowsViewController class]]
                             ],
                     
                     sChapterGradients: @[
