@@ -22,6 +22,8 @@
 		58B1DA281F78994B00202CCA /* LinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA271F78994B00202CCA /* LinesView.m */; };
 		58B1DA2B1F78AD7B00202CCA /* ArcsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA2A1F78AD7B00202CCA /* ArcsViewController.m */; };
 		58B1DA2E1F78AD9300202CCA /* ArcsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA2D1F78AD9300202CCA /* ArcsView.m */; };
+		58B1DA311F78DE4400202CCA /* EllipsesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA301F78DE4400202CCA /* EllipsesViewController.m */; };
+		58B1DA341F78DE6000202CCA /* EllipsesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA331F78DE6000202CCA /* EllipsesView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,10 @@
 		58B1DA2A1F78AD7B00202CCA /* ArcsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcsViewController.m; sourceTree = "<group>"; };
 		58B1DA2C1F78AD9300202CCA /* ArcsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcsView.h; sourceTree = "<group>"; };
 		58B1DA2D1F78AD9300202CCA /* ArcsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcsView.m; sourceTree = "<group>"; };
+		58B1DA2F1F78DE4400202CCA /* EllipsesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EllipsesViewController.h; sourceTree = "<group>"; };
+		58B1DA301F78DE4400202CCA /* EllipsesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EllipsesViewController.m; sourceTree = "<group>"; };
+		58B1DA321F78DE6000202CCA /* EllipsesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EllipsesView.h; sourceTree = "<group>"; };
+		58B1DA331F78DE6000202CCA /* EllipsesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EllipsesView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,8 @@
 				58B1DA241F7898A700202CCA /* LinesViewController.m */,
 				58B1DA291F78AD7B00202CCA /* ArcsViewController.h */,
 				58B1DA2A1F78AD7B00202CCA /* ArcsViewController.m */,
+				58B1DA2F1F78DE4400202CCA /* EllipsesViewController.h */,
+				58B1DA301F78DE4400202CCA /* EllipsesViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -179,6 +187,8 @@
 				58B1DA271F78994B00202CCA /* LinesView.m */,
 				58B1DA2C1F78AD9300202CCA /* ArcsView.h */,
 				58B1DA2D1F78AD9300202CCA /* ArcsView.m */,
+				58B1DA321F78DE6000202CCA /* EllipsesView.h */,
+				58B1DA331F78DE6000202CCA /* EllipsesView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -294,6 +304,8 @@
 				58B1D9BF1F739FFE00202CCA /* MainViewController.m in Sources */,
 				58B1D9E81F73B7E900202CCA /* RadarView.m in Sources */,
 				58B1D9BC1F739FFE00202CCA /* AppDelegate.m in Sources */,
+				58B1DA341F78DE6000202CCA /* EllipsesView.m in Sources */,
+				58B1DA311F78DE4400202CCA /* EllipsesViewController.m in Sources */,
 				58B1D9B91F739FFE00202CCA /* main.m in Sources */,
 				58B1DA281F78994B00202CCA /* LinesView.m in Sources */,
 				58B1DA2E1F78AD9300202CCA /* ArcsView.m in Sources */,

@@ -10,6 +10,7 @@
 #import "ConicalViewController.h"
 #import "LinesViewController.h"
 #import "ArcsViewController.h"
+#import "EllipsesViewController.h"
 
 #import "Scene.h"
 
@@ -145,7 +146,7 @@ static NSString *const sChapterCoreGraphicsLayerDrawing = @"Core Graphics Layer 
                             [[Scene alloc] initWithTitle:@"Lines" class:[LinesViewController class]],
                             [[Scene alloc] initWithTitle:@"Arcs" class:[ArcsViewController class]],
                             [[Scene alloc] initWithTitle:@"Curves" class:[UIViewController class]],
-                            [[Scene alloc] initWithTitle:@"Ellipses" class:[UIViewController class]],
+                            [[Scene alloc] initWithTitle:@"Ellipses" class:[EllipsesViewController class]],
                             [[Scene alloc] initWithTitle:@"Rectangles" class:[UIViewController class]],
                             [[Scene alloc] initWithTitle:@"Path" class:[UIViewController class]]
                             ],
