@@ -30,6 +30,8 @@
 		58B1DA401F79F4FD00202CCA /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA3F1F79F4FD00202CCA /* PathView.m */; };
 		58B1DA431F7A2A0000202CCA /* ColorSpacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA421F7A2A0000202CCA /* ColorSpacesViewController.m */; };
 		58B1DA461F7A2A1E00202CCA /* ColorSpacesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA451F7A2A1E00202CCA /* ColorSpacesView.m */; };
+		58B1DA491F7A2EF900202CCA /* ColoredPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA481F7A2EF900202CCA /* ColoredPatternsViewController.m */; };
+		58B1DA4C1F7A2F1100202CCA /* ColoredPatternsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA4B1F7A2F1100202CCA /* ColoredPatternsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,10 @@
 		58B1DA421F7A2A0000202CCA /* ColorSpacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSpacesViewController.m; sourceTree = "<group>"; };
 		58B1DA441F7A2A1E00202CCA /* ColorSpacesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSpacesView.h; sourceTree = "<group>"; };
 		58B1DA451F7A2A1E00202CCA /* ColorSpacesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSpacesView.m; sourceTree = "<group>"; };
+		58B1DA471F7A2EF900202CCA /* ColoredPatternsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredPatternsViewController.h; sourceTree = "<group>"; };
+		58B1DA481F7A2EF900202CCA /* ColoredPatternsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredPatternsViewController.m; sourceTree = "<group>"; };
+		58B1DA4A1F7A2F1100202CCA /* ColoredPatternsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredPatternsView.h; sourceTree = "<group>"; };
+		58B1DA4B1F7A2F1100202CCA /* ColoredPatternsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredPatternsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +202,8 @@
 				58B1DA3C1F79F4E700202CCA /* PathViewController.m */,
 				58B1DA411F7A2A0000202CCA /* ColorSpacesViewController.h */,
 				58B1DA421F7A2A0000202CCA /* ColorSpacesViewController.m */,
+				58B1DA471F7A2EF900202CCA /* ColoredPatternsViewController.h */,
+				58B1DA481F7A2EF900202CCA /* ColoredPatternsViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -219,6 +227,8 @@
 				58B1DA3F1F79F4FD00202CCA /* PathView.m */,
 				58B1DA441F7A2A1E00202CCA /* ColorSpacesView.h */,
 				58B1DA451F7A2A1E00202CCA /* ColorSpacesView.m */,
+				58B1DA4A1F7A2F1100202CCA /* ColoredPatternsView.h */,
+				58B1DA4B1F7A2F1100202CCA /* ColoredPatternsView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -345,7 +355,9 @@
 				58B1DA3A1F79EBA600202CCA /* RectanglesViewController.m in Sources */,
 				58B1DA2E1F78AD9300202CCA /* ArcsView.m in Sources */,
 				58B1DA2B1F78AD7B00202CCA /* ArcsViewController.m in Sources */,
+				58B1DA491F7A2EF900202CCA /* ColoredPatternsViewController.m in Sources */,
 				58B1DA431F7A2A0000202CCA /* ColorSpacesViewController.m in Sources */,
+				58B1DA4C1F7A2F1100202CCA /* ColoredPatternsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
