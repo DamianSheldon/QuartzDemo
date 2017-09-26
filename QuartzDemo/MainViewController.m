@@ -19,6 +19,7 @@
 #import "ShadowsViewController.h"
 #import "TransparencyLayerViewController.h"
 #import "AxialGradientViewController.h"
+#import "RadialGradientViewController.h"
 
 #import "Scene.h"
 
@@ -176,7 +177,7 @@ static NSString *const sChapterCoreGraphicsLayerDrawing = @"Core Graphics Layer 
                     
                     sChapterGradients: @[
                             [[Scene alloc] initWithTitle:@"Axial" class:[AxialGradientViewController class]],
-                            [[Scene alloc] initWithTitle:@"Radial" class:[UIViewController class]],
+                            [[Scene alloc] initWithTitle:@"Radial" class:[RadialGradientViewController class]],
                             [[Scene alloc] initWithTitle:@"Conical" class:[ConicalViewController class]],
                             ],
                     

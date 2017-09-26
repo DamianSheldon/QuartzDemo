@@ -40,6 +40,8 @@
 		58B1DA5E1F7A480500202CCA /* TransparencyLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA5D1F7A480500202CCA /* TransparencyLayerView.m */; };
 		58B1DA611F7A4C0300202CCA /* AxialGradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA601F7A4C0300202CCA /* AxialGradientViewController.m */; };
 		58B1DA641F7A4C1900202CCA /* AxialGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA631F7A4C1900202CCA /* AxialGradientView.m */; };
+		58B1DA671F7A4F0D00202CCA /* RadialGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA661F7A4F0D00202CCA /* RadialGradientView.m */; };
+		58B1DA6A1F7A4F2000202CCA /* RadialGradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA691F7A4F2000202CCA /* RadialGradientViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +120,10 @@
 		58B1DA601F7A4C0300202CCA /* AxialGradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxialGradientViewController.m; sourceTree = "<group>"; };
 		58B1DA621F7A4C1900202CCA /* AxialGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxialGradientView.h; sourceTree = "<group>"; };
 		58B1DA631F7A4C1900202CCA /* AxialGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxialGradientView.m; sourceTree = "<group>"; };
+		58B1DA651F7A4F0D00202CCA /* RadialGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialGradientView.h; sourceTree = "<group>"; };
+		58B1DA661F7A4F0D00202CCA /* RadialGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialGradientView.m; sourceTree = "<group>"; };
+		58B1DA681F7A4F2000202CCA /* RadialGradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialGradientViewController.h; sourceTree = "<group>"; };
+		58B1DA691F7A4F2000202CCA /* RadialGradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialGradientViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +242,8 @@
 				58B1DA5A1F7A47EF00202CCA /* TransparencyLayerViewController.m */,
 				58B1DA5F1F7A4C0300202CCA /* AxialGradientViewController.h */,
 				58B1DA601F7A4C0300202CCA /* AxialGradientViewController.m */,
+				58B1DA681F7A4F2000202CCA /* RadialGradientViewController.h */,
+				58B1DA691F7A4F2000202CCA /* RadialGradientViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -269,6 +277,8 @@
 				58B1DA5D1F7A480500202CCA /* TransparencyLayerView.m */,
 				58B1DA621F7A4C1900202CCA /* AxialGradientView.h */,
 				58B1DA631F7A4C1900202CCA /* AxialGradientView.m */,
+				58B1DA651F7A4F0D00202CCA /* RadialGradientView.h */,
+				58B1DA661F7A4F0D00202CCA /* RadialGradientView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -382,11 +392,13 @@
 				58B1DA641F7A4C1900202CCA /* AxialGradientView.m in Sources */,
 				58B1DA551F7A3F9200202CCA /* ShadowsViewController.m in Sources */,
 				58B1D9DE1F73AD8A00202CCA /* Scene.m in Sources */,
+				58B1DA671F7A4F0D00202CCA /* RadialGradientView.m in Sources */,
 				58B1DA251F7898A700202CCA /* LinesViewController.m in Sources */,
 				58B1DA581F7A3FA600202CCA /* ShadowsView.m in Sources */,
 				58B1DA5E1F7A480500202CCA /* TransparencyLayerView.m in Sources */,
 				58B1DA461F7A2A1E00202CCA /* ColorSpacesView.m in Sources */,
 				58B1D9E51F73B6AF00202CCA /* ConicalViewController.m in Sources */,
+				58B1DA6A1F7A4F2000202CCA /* RadialGradientViewController.m in Sources */,
 				58B1D9BF1F739FFE00202CCA /* MainViewController.m in Sources */,
 				58B1D9E81F73B7E900202CCA /* RadarView.m in Sources */,
 				58B1D9BC1F739FFE00202CCA /* AppDelegate.m in Sources */,
