@@ -17,6 +17,7 @@
 #import "ColoredPatternsViewController.h"
 #import "StencilPatternsViewController.h"
 #import "ShadowsViewController.h"
+#import "TransparencyLayerViewController.h"
 
 #import "Scene.h"
 
@@ -177,7 +178,7 @@ static NSString *const sChapterCoreGraphicsLayerDrawing = @"Core Graphics Layer 
                             ],
                     
                     sChapterTransparencyLayers: @[
-                            [[Scene alloc] initWithTitle:@"Transparency Layers" class:[UIViewController class]]
+                            [[Scene alloc] initWithTitle:@"Transparency Layers" class:[TransparencyLayerViewController class]]
                             ],
                     sChapterBitmapImagesAndImageMasks: @[
                             [[Scene alloc] initWithTitle:@"Image Mask" class:[UIViewController class]],

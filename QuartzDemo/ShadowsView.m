@@ -44,6 +44,9 @@ void MyDrawWithShadows (CGContextRef myContext, // 1
 - (void)drawRect:(CGRect)rect {
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     
+    CGContextSetFillColorWithColor(ctx, self.backgroundColor.CGColor);
+    CGContextFillRect(ctx, rect);
+    
     MyDrawWithShadows(ctx, CGRectGetWidth(rect), CGRectGetHeight(rect));
 }
 

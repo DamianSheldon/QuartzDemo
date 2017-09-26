@@ -36,6 +36,8 @@
 		58B1DA521F7A3B4A00202CCA /* StencilPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA511F7A3B4A00202CCA /* StencilPatternsViewController.m */; };
 		58B1DA551F7A3F9200202CCA /* ShadowsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA541F7A3F9200202CCA /* ShadowsViewController.m */; };
 		58B1DA581F7A3FA600202CCA /* ShadowsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA571F7A3FA600202CCA /* ShadowsView.m */; };
+		58B1DA5B1F7A47EF00202CCA /* TransparencyLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA5A1F7A47EF00202CCA /* TransparencyLayerViewController.m */; };
+		58B1DA5E1F7A480500202CCA /* TransparencyLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA5D1F7A480500202CCA /* TransparencyLayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,10 @@
 		58B1DA541F7A3F9200202CCA /* ShadowsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowsViewController.m; sourceTree = "<group>"; };
 		58B1DA561F7A3FA600202CCA /* ShadowsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowsView.h; sourceTree = "<group>"; };
 		58B1DA571F7A3FA600202CCA /* ShadowsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowsView.m; sourceTree = "<group>"; };
+		58B1DA591F7A47EF00202CCA /* TransparencyLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparencyLayerViewController.h; sourceTree = "<group>"; };
+		58B1DA5A1F7A47EF00202CCA /* TransparencyLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparencyLayerViewController.m; sourceTree = "<group>"; };
+		58B1DA5C1F7A480500202CCA /* TransparencyLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparencyLayerView.h; sourceTree = "<group>"; };
+		58B1DA5D1F7A480500202CCA /* TransparencyLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparencyLayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +226,8 @@
 				58B1DA511F7A3B4A00202CCA /* StencilPatternsViewController.m */,
 				58B1DA531F7A3F9200202CCA /* ShadowsViewController.h */,
 				58B1DA541F7A3F9200202CCA /* ShadowsViewController.m */,
+				58B1DA591F7A47EF00202CCA /* TransparencyLayerViewController.h */,
+				58B1DA5A1F7A47EF00202CCA /* TransparencyLayerViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -249,6 +257,8 @@
 				58B1DA4E1F7A3B3300202CCA /* StencilPatternsView.m */,
 				58B1DA561F7A3FA600202CCA /* ShadowsView.h */,
 				58B1DA571F7A3FA600202CCA /* ShadowsView.m */,
+				58B1DA5C1F7A480500202CCA /* TransparencyLayerView.h */,
+				58B1DA5D1F7A480500202CCA /* TransparencyLayerView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -363,12 +373,14 @@
 				58B1D9DE1F73AD8A00202CCA /* Scene.m in Sources */,
 				58B1DA251F7898A700202CCA /* LinesViewController.m in Sources */,
 				58B1DA581F7A3FA600202CCA /* ShadowsView.m in Sources */,
+				58B1DA5E1F7A480500202CCA /* TransparencyLayerView.m in Sources */,
 				58B1DA461F7A2A1E00202CCA /* ColorSpacesView.m in Sources */,
 				58B1D9E51F73B6AF00202CCA /* ConicalViewController.m in Sources */,
 				58B1D9BF1F739FFE00202CCA /* MainViewController.m in Sources */,
 				58B1D9E81F73B7E900202CCA /* RadarView.m in Sources */,
 				58B1D9BC1F739FFE00202CCA /* AppDelegate.m in Sources */,
 				58B1DA341F78DE6000202CCA /* EllipsesView.m in Sources */,
+				58B1DA5B1F7A47EF00202CCA /* TransparencyLayerViewController.m in Sources */,
 				58B1DA311F78DE4400202CCA /* EllipsesViewController.m in Sources */,
 				58B1DA4F1F7A3B3300202CCA /* StencilPatternsView.m in Sources */,
 				58B1DA401F79F4FD00202CCA /* PathView.m in Sources */,

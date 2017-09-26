@@ -18,6 +18,7 @@
 - (void)loadView
 {
     self.view = [ShadowsView new];
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 @end
