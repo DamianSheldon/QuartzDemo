@@ -18,6 +18,7 @@
 #import "StencilPatternsViewController.h"
 #import "ShadowsViewController.h"
 #import "TransparencyLayerViewController.h"
+#import "AxialGradientViewController.h"
 
 #import "Scene.h"
 
@@ -36,6 +37,8 @@ static NSString * const sCellId = @"cell";
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.title = @"Quartz";
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     
@@ -172,7 +175,7 @@ static NSString *const sChapterCoreGraphicsLayerDrawing = @"Core Graphics Layer 
                             ],
                     
                     sChapterGradients: @[
-                            [[Scene alloc] initWithTitle:@"Axial" class:[UIViewController class]],
+                            [[Scene alloc] initWithTitle:@"Axial" class:[AxialGradientViewController class]],
                             [[Scene alloc] initWithTitle:@"Radial" class:[UIViewController class]],
                             [[Scene alloc] initWithTitle:@"Conical" class:[ConicalViewController class]],
                             ],
