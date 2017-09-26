@@ -24,6 +24,8 @@
 		58B1DA2E1F78AD9300202CCA /* ArcsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA2D1F78AD9300202CCA /* ArcsView.m */; };
 		58B1DA311F78DE4400202CCA /* EllipsesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA301F78DE4400202CCA /* EllipsesViewController.m */; };
 		58B1DA341F78DE6000202CCA /* EllipsesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA331F78DE6000202CCA /* EllipsesView.m */; };
+		58B1DA371F79EB8F00202CCA /* RectanglesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA361F79EB8F00202CCA /* RectanglesView.m */; };
+		58B1DA3A1F79EBA600202CCA /* RectanglesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA391F79EBA600202CCA /* RectanglesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,10 @@
 		58B1DA301F78DE4400202CCA /* EllipsesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EllipsesViewController.m; sourceTree = "<group>"; };
 		58B1DA321F78DE6000202CCA /* EllipsesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EllipsesView.h; sourceTree = "<group>"; };
 		58B1DA331F78DE6000202CCA /* EllipsesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EllipsesView.m; sourceTree = "<group>"; };
+		58B1DA351F79EB8F00202CCA /* RectanglesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectanglesView.h; sourceTree = "<group>"; };
+		58B1DA361F79EB8F00202CCA /* RectanglesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectanglesView.m; sourceTree = "<group>"; };
+		58B1DA381F79EBA600202CCA /* RectanglesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectanglesViewController.h; sourceTree = "<group>"; };
+		58B1DA391F79EBA600202CCA /* RectanglesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectanglesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +178,8 @@
 				58B1DA2A1F78AD7B00202CCA /* ArcsViewController.m */,
 				58B1DA2F1F78DE4400202CCA /* EllipsesViewController.h */,
 				58B1DA301F78DE4400202CCA /* EllipsesViewController.m */,
+				58B1DA381F79EBA600202CCA /* RectanglesViewController.h */,
+				58B1DA391F79EBA600202CCA /* RectanglesViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -189,6 +197,8 @@
 				58B1DA2D1F78AD9300202CCA /* ArcsView.m */,
 				58B1DA321F78DE6000202CCA /* EllipsesView.h */,
 				58B1DA331F78DE6000202CCA /* EllipsesView.m */,
+				58B1DA351F79EB8F00202CCA /* RectanglesView.h */,
+				58B1DA361F79EB8F00202CCA /* RectanglesView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -307,7 +317,9 @@
 				58B1DA341F78DE6000202CCA /* EllipsesView.m in Sources */,
 				58B1DA311F78DE4400202CCA /* EllipsesViewController.m in Sources */,
 				58B1D9B91F739FFE00202CCA /* main.m in Sources */,
+				58B1DA371F79EB8F00202CCA /* RectanglesView.m in Sources */,
 				58B1DA281F78994B00202CCA /* LinesView.m in Sources */,
+				58B1DA3A1F79EBA600202CCA /* RectanglesViewController.m in Sources */,
 				58B1DA2E1F78AD9300202CCA /* ArcsView.m in Sources */,
 				58B1DA2B1F78AD7B00202CCA /* ArcsViewController.m in Sources */,
 			);
