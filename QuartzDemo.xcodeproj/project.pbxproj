@@ -48,6 +48,9 @@
 		58B1DA751F7B3F6700202CCA /* two_tigers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DA741F7B3F6700202CCA /* two_tigers.gif */; };
 		58B1DA781F7B4EDA00202CCA /* MaskWithImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA771F7B4EDA00202CCA /* MaskWithImageViewController.m */; };
 		58B1DA7B1F7B4F6400202CCA /* MaskWithImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA7A1F7B4F6400202CCA /* MaskWithImageOperation.m */; };
+		58B1DA7E1F7B804300202CCA /* MaskWithColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA7D1F7B804300202CCA /* MaskWithColorViewController.m */; };
+		58B1DA811F7B80AF00202CCA /* MaskWithColorOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA801F7B80AF00202CCA /* MaskWithColorOperation.m */; };
+		58B1DA831F7B853200202CCA /* chroma_key.gif in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DA821F7B853200202CCA /* chroma_key.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +143,11 @@
 		58B1DA771F7B4EDA00202CCA /* MaskWithImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskWithImageViewController.m; sourceTree = "<group>"; };
 		58B1DA791F7B4F6400202CCA /* MaskWithImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskWithImageOperation.h; sourceTree = "<group>"; };
 		58B1DA7A1F7B4F6400202CCA /* MaskWithImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskWithImageOperation.m; sourceTree = "<group>"; };
+		58B1DA7C1F7B804300202CCA /* MaskWithColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskWithColorViewController.h; sourceTree = "<group>"; };
+		58B1DA7D1F7B804300202CCA /* MaskWithColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskWithColorViewController.m; sourceTree = "<group>"; };
+		58B1DA7F1F7B80AF00202CCA /* MaskWithColorOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskWithColorOperation.h; sourceTree = "<group>"; };
+		58B1DA801F7B80AF00202CCA /* MaskWithColorOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskWithColorOperation.m; sourceTree = "<group>"; };
+		58B1DA821F7B853200202CCA /* chroma_key.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = chroma_key.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +200,7 @@
 				58B1D9C81F739FFE00202CCA /* Info.plist */,
 				58B1DA721F7B3F5C00202CCA /* two_tiger_mask.gif */,
 				58B1DA741F7B3F6700202CCA /* two_tigers.gif */,
+				58B1DA821F7B853200202CCA /* chroma_key.gif */,
 				58B1D9B71F739FFE00202CCA /* Supporting Files */,
 			);
 			path = QuartzDemo;
@@ -267,6 +276,8 @@
 				58B1DA6C1F7B2BCD00202CCA /* MaskWithImageMaskViewController.m */,
 				58B1DA761F7B4EDA00202CCA /* MaskWithImageViewController.h */,
 				58B1DA771F7B4EDA00202CCA /* MaskWithImageViewController.m */,
+				58B1DA7C1F7B804300202CCA /* MaskWithColorViewController.h */,
+				58B1DA7D1F7B804300202CCA /* MaskWithColorViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -313,6 +324,8 @@
 				58B1DA6F1F7B2BE600202CCA /* MaskWithImageMaskOperation.m */,
 				58B1DA791F7B4F6400202CCA /* MaskWithImageOperation.h */,
 				58B1DA7A1F7B4F6400202CCA /* MaskWithImageOperation.m */,
+				58B1DA7F1F7B80AF00202CCA /* MaskWithColorOperation.h */,
+				58B1DA801F7B80AF00202CCA /* MaskWithColorOperation.m */,
 			);
 			name = Operations;
 			sourceTree = "<group>";
@@ -405,6 +418,7 @@
 				58B1DA731F7B3F5C00202CCA /* two_tiger_mask.gif in Resources */,
 				58B1DA751F7B3F6700202CCA /* two_tigers.gif in Resources */,
 				58B1D9C41F739FFE00202CCA /* Assets.xcassets in Resources */,
+				58B1DA831F7B853200202CCA /* chroma_key.gif in Resources */,
 				58B1D9C21F739FFE00202CCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,11 +454,13 @@
 				58B1D9BC1F739FFE00202CCA /* AppDelegate.m in Sources */,
 				58B1DA341F78DE6000202CCA /* EllipsesView.m in Sources */,
 				58B1DA5B1F7A47EF00202CCA /* TransparencyLayerViewController.m in Sources */,
+				58B1DA811F7B80AF00202CCA /* MaskWithColorOperation.m in Sources */,
 				58B1DA311F78DE4400202CCA /* EllipsesViewController.m in Sources */,
 				58B1DA4F1F7A3B3300202CCA /* StencilPatternsView.m in Sources */,
 				58B1DA401F79F4FD00202CCA /* PathView.m in Sources */,
 				58B1D9B91F739FFE00202CCA /* main.m in Sources */,
 				58B1DA701F7B2BE600202CCA /* MaskWithImageMaskOperation.m in Sources */,
+				58B1DA7E1F7B804300202CCA /* MaskWithColorViewController.m in Sources */,
 				58B1DA371F79EB8F00202CCA /* RectanglesView.m in Sources */,
 				58B1DA6D1F7B2BCD00202CCA /* MaskWithImageMaskViewController.m in Sources */,
 				58B1DA3D1F79F4E700202CCA /* PathViewController.m in Sources */,
