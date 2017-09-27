@@ -20,6 +20,7 @@
 #import "TransparencyLayerViewController.h"
 #import "AxialGradientViewController.h"
 #import "RadialGradientViewController.h"
+#import "MaskWithImageMaskViewController.h"
 
 #import "Scene.h"
 
@@ -185,7 +186,7 @@ static NSString *const sChapterCoreGraphicsLayerDrawing = @"Core Graphics Layer 
                             [[Scene alloc] initWithTitle:@"Transparency Layers" class:[TransparencyLayerViewController class]]
                             ],
                     sChapterBitmapImagesAndImageMasks: @[
-                            [[Scene alloc] initWithTitle:@"Image Mask" class:[UIViewController class]],
+                            [[Scene alloc] initWithTitle:@"Image Mask" class:[MaskWithImageMaskViewController class]],
                             [[Scene alloc] initWithTitle:@"Image" class:[UIViewController class]],
                             [[Scene alloc] initWithTitle:@"Color" class:[UIViewController class]],
                             [[Scene alloc] initWithTitle:@"Clipping Context" class:[UIViewController class]]

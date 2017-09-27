@@ -42,6 +42,10 @@
 		58B1DA641F7A4C1900202CCA /* AxialGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA631F7A4C1900202CCA /* AxialGradientView.m */; };
 		58B1DA671F7A4F0D00202CCA /* RadialGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA661F7A4F0D00202CCA /* RadialGradientView.m */; };
 		58B1DA6A1F7A4F2000202CCA /* RadialGradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA691F7A4F2000202CCA /* RadialGradientViewController.m */; };
+		58B1DA6D1F7B2BCD00202CCA /* MaskWithImageMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA6C1F7B2BCD00202CCA /* MaskWithImageMaskViewController.m */; };
+		58B1DA701F7B2BE600202CCA /* MaskWithImageMaskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA6F1F7B2BE600202CCA /* MaskWithImageMaskOperation.m */; };
+		58B1DA731F7B3F5C00202CCA /* two_tiger_mask.gif in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DA721F7B3F5C00202CCA /* two_tiger_mask.gif */; };
+		58B1DA751F7B3F6700202CCA /* two_tigers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DA741F7B3F6700202CCA /* two_tigers.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +128,12 @@
 		58B1DA661F7A4F0D00202CCA /* RadialGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialGradientView.m; sourceTree = "<group>"; };
 		58B1DA681F7A4F2000202CCA /* RadialGradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialGradientViewController.h; sourceTree = "<group>"; };
 		58B1DA691F7A4F2000202CCA /* RadialGradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialGradientViewController.m; sourceTree = "<group>"; };
+		58B1DA6B1F7B2BCD00202CCA /* MaskWithImageMaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskWithImageMaskViewController.h; sourceTree = "<group>"; };
+		58B1DA6C1F7B2BCD00202CCA /* MaskWithImageMaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskWithImageMaskViewController.m; sourceTree = "<group>"; };
+		58B1DA6E1F7B2BE600202CCA /* MaskWithImageMaskOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskWithImageMaskOperation.h; sourceTree = "<group>"; };
+		58B1DA6F1F7B2BE600202CCA /* MaskWithImageMaskOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskWithImageMaskOperation.m; sourceTree = "<group>"; };
+		58B1DA721F7B3F5C00202CCA /* two_tiger_mask.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = two_tiger_mask.gif; sourceTree = "<group>"; };
+		58B1DA741F7B3F6700202CCA /* two_tigers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = two_tigers.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +175,7 @@
 		58B1D9B61F739FFE00202CCA /* QuartzDemo */ = {
 			isa = PBXGroup;
 			children = (
+				58B1DA711F7B347F00202CCA /* Operations */,
 				58B1D9E21F73B68100202CCA /* Views */,
 				58B1D9E11F73B62A00202CCA /* Controllers */,
 				58B1D9E01F73B62200202CCA /* Models */,
@@ -173,6 +184,8 @@
 				58B1D9C31F739FFE00202CCA /* Assets.xcassets */,
 				58B1D9C51F739FFE00202CCA /* LaunchScreen.storyboard */,
 				58B1D9C81F739FFE00202CCA /* Info.plist */,
+				58B1DA721F7B3F5C00202CCA /* two_tiger_mask.gif */,
+				58B1DA741F7B3F6700202CCA /* two_tigers.gif */,
 				58B1D9B71F739FFE00202CCA /* Supporting Files */,
 			);
 			path = QuartzDemo;
@@ -244,6 +257,8 @@
 				58B1DA601F7A4C0300202CCA /* AxialGradientViewController.m */,
 				58B1DA681F7A4F2000202CCA /* RadialGradientViewController.h */,
 				58B1DA691F7A4F2000202CCA /* RadialGradientViewController.m */,
+				58B1DA6B1F7B2BCD00202CCA /* MaskWithImageMaskViewController.h */,
+				58B1DA6C1F7B2BCD00202CCA /* MaskWithImageMaskViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -281,6 +296,15 @@
 				58B1DA661F7A4F0D00202CCA /* RadialGradientView.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		58B1DA711F7B347F00202CCA /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				58B1DA6E1F7B2BE600202CCA /* MaskWithImageMaskOperation.h */,
+				58B1DA6F1F7B2BE600202CCA /* MaskWithImageMaskOperation.m */,
+			);
+			name = Operations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,6 +392,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				58B1D9C71F739FFE00202CCA /* LaunchScreen.storyboard in Resources */,
+				58B1DA731F7B3F5C00202CCA /* two_tiger_mask.gif in Resources */,
+				58B1DA751F7B3F6700202CCA /* two_tigers.gif in Resources */,
 				58B1D9C41F739FFE00202CCA /* Assets.xcassets in Resources */,
 				58B1D9C21F739FFE00202CCA /* Main.storyboard in Resources */,
 			);
@@ -408,7 +434,9 @@
 				58B1DA4F1F7A3B3300202CCA /* StencilPatternsView.m in Sources */,
 				58B1DA401F79F4FD00202CCA /* PathView.m in Sources */,
 				58B1D9B91F739FFE00202CCA /* main.m in Sources */,
+				58B1DA701F7B2BE600202CCA /* MaskWithImageMaskOperation.m in Sources */,
 				58B1DA371F79EB8F00202CCA /* RectanglesView.m in Sources */,
+				58B1DA6D1F7B2BCD00202CCA /* MaskWithImageMaskViewController.m in Sources */,
 				58B1DA3D1F79F4E700202CCA /* PathViewController.m in Sources */,
 				58B1DA611F7A4C0300202CCA /* AxialGradientViewController.m in Sources */,
 				58B1DA281F78994B00202CCA /* LinesView.m in Sources */,
