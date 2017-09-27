@@ -46,6 +46,8 @@
 		58B1DA701F7B2BE600202CCA /* MaskWithImageMaskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA6F1F7B2BE600202CCA /* MaskWithImageMaskOperation.m */; };
 		58B1DA731F7B3F5C00202CCA /* two_tiger_mask.gif in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DA721F7B3F5C00202CCA /* two_tiger_mask.gif */; };
 		58B1DA751F7B3F6700202CCA /* two_tigers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DA741F7B3F6700202CCA /* two_tigers.gif */; };
+		58B1DA781F7B4EDA00202CCA /* MaskWithImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA771F7B4EDA00202CCA /* MaskWithImageViewController.m */; };
+		58B1DA7B1F7B4F6400202CCA /* MaskWithImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA7A1F7B4F6400202CCA /* MaskWithImageOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +136,10 @@
 		58B1DA6F1F7B2BE600202CCA /* MaskWithImageMaskOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskWithImageMaskOperation.m; sourceTree = "<group>"; };
 		58B1DA721F7B3F5C00202CCA /* two_tiger_mask.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = two_tiger_mask.gif; sourceTree = "<group>"; };
 		58B1DA741F7B3F6700202CCA /* two_tigers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = two_tigers.gif; sourceTree = "<group>"; };
+		58B1DA761F7B4EDA00202CCA /* MaskWithImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskWithImageViewController.h; sourceTree = "<group>"; };
+		58B1DA771F7B4EDA00202CCA /* MaskWithImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskWithImageViewController.m; sourceTree = "<group>"; };
+		58B1DA791F7B4F6400202CCA /* MaskWithImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskWithImageOperation.h; sourceTree = "<group>"; };
+		58B1DA7A1F7B4F6400202CCA /* MaskWithImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskWithImageOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +265,8 @@
 				58B1DA691F7A4F2000202CCA /* RadialGradientViewController.m */,
 				58B1DA6B1F7B2BCD00202CCA /* MaskWithImageMaskViewController.h */,
 				58B1DA6C1F7B2BCD00202CCA /* MaskWithImageMaskViewController.m */,
+				58B1DA761F7B4EDA00202CCA /* MaskWithImageViewController.h */,
+				58B1DA771F7B4EDA00202CCA /* MaskWithImageViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -303,6 +311,8 @@
 			children = (
 				58B1DA6E1F7B2BE600202CCA /* MaskWithImageMaskOperation.h */,
 				58B1DA6F1F7B2BE600202CCA /* MaskWithImageMaskOperation.m */,
+				58B1DA791F7B4F6400202CCA /* MaskWithImageOperation.h */,
+				58B1DA7A1F7B4F6400202CCA /* MaskWithImageOperation.m */,
 			);
 			name = Operations;
 			sourceTree = "<group>";
@@ -443,6 +453,8 @@
 				58B1DA3A1F79EBA600202CCA /* RectanglesViewController.m in Sources */,
 				58B1DA2E1F78AD9300202CCA /* ArcsView.m in Sources */,
 				58B1DA2B1F78AD7B00202CCA /* ArcsViewController.m in Sources */,
+				58B1DA781F7B4EDA00202CCA /* MaskWithImageViewController.m in Sources */,
+				58B1DA7B1F7B4F6400202CCA /* MaskWithImageOperation.m in Sources */,
 				58B1DA491F7A2EF900202CCA /* ColoredPatternsViewController.m in Sources */,
 				58B1DA431F7A2A0000202CCA /* ColorSpacesViewController.m in Sources */,
 				58B1DA4C1F7A2F1100202CCA /* ColoredPatternsView.m in Sources */,

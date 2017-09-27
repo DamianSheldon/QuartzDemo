@@ -21,6 +21,7 @@
 #import "AxialGradientViewController.h"
 #import "RadialGradientViewController.h"
 #import "MaskWithImageMaskViewController.h"
+#import "MaskWithImageViewController.h"
 
 #import "Scene.h"
 
@@ -187,7 +188,7 @@ static NSString *const sChapterCoreGraphicsLayerDrawing = @"Core Graphics Layer 
                             ],
                     sChapterBitmapImagesAndImageMasks: @[
                             [[Scene alloc] initWithTitle:@"Image Mask" class:[MaskWithImageMaskViewController class]],
-                            [[Scene alloc] initWithTitle:@"Image" class:[UIViewController class]],
+                            [[Scene alloc] initWithTitle:@"Image" class:[MaskWithImageViewController class]],
                             [[Scene alloc] initWithTitle:@"Color" class:[UIViewController class]],
                             [[Scene alloc] initWithTitle:@"Clipping Context" class:[UIViewController class]]
                             ],

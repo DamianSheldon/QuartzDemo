@@ -68,6 +68,7 @@
         CGImageRef maskedImage = CGImageCreateWithMask(twoTigerImage, imageMask);
         
         CGImageRelease(twoTigerImage);
+        CGImageRelease(imageMask);
         
         self.maskedImage = [UIImage imageWithCGImage:maskedImage];
     
