@@ -54,6 +54,8 @@
 		58B1DA861F7B8E3500202CCA /* MaskWithClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA851F7B8E3500202CCA /* MaskWithClipViewController.m */; };
 		58B1DA891F7B8E5A00202CCA /* MaskWithClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA881F7B8E5A00202CCA /* MaskWithClipView.m */; };
 		58B1DA8B1F7B954600202CCA /* the_mask.gif in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DA8A1F7B954600202CCA /* the_mask.gif */; };
+		58B1DA8E1F7C7F1F00202CCA /* CGLayerDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA8D1F7C7F1F00202CCA /* CGLayerDrawingViewController.m */; };
+		58B1DA911F7C7F4E00202CCA /* CGLayerDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA901F7C7F4E00202CCA /* CGLayerDrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +158,10 @@
 		58B1DA871F7B8E5A00202CCA /* MaskWithClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskWithClipView.h; sourceTree = "<group>"; };
 		58B1DA881F7B8E5A00202CCA /* MaskWithClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskWithClipView.m; sourceTree = "<group>"; };
 		58B1DA8A1F7B954600202CCA /* the_mask.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = the_mask.gif; sourceTree = "<group>"; };
+		58B1DA8C1F7C7F1F00202CCA /* CGLayerDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLayerDrawingViewController.h; sourceTree = "<group>"; };
+		58B1DA8D1F7C7F1F00202CCA /* CGLayerDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLayerDrawingViewController.m; sourceTree = "<group>"; };
+		58B1DA8F1F7C7F4E00202CCA /* CGLayerDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLayerDrawingView.h; sourceTree = "<group>"; };
+		58B1DA901F7C7F4E00202CCA /* CGLayerDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLayerDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +295,8 @@
 				58B1DA7D1F7B804300202CCA /* MaskWithColorViewController.m */,
 				58B1DA841F7B8E3500202CCA /* MaskWithClipViewController.h */,
 				58B1DA851F7B8E3500202CCA /* MaskWithClipViewController.m */,
+				58B1DA8C1F7C7F1F00202CCA /* CGLayerDrawingViewController.h */,
+				58B1DA8D1F7C7F1F00202CCA /* CGLayerDrawingViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -326,6 +334,8 @@
 				58B1DA661F7A4F0D00202CCA /* RadialGradientView.m */,
 				58B1DA871F7B8E5A00202CCA /* MaskWithClipView.h */,
 				58B1DA881F7B8E5A00202CCA /* MaskWithClipView.m */,
+				58B1DA8F1F7C7F4E00202CCA /* CGLayerDrawingView.h */,
+				58B1DA901F7C7F4E00202CCA /* CGLayerDrawingView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -478,10 +488,12 @@
 				58B1DA701F7B2BE600202CCA /* MaskWithImageMaskOperation.m in Sources */,
 				58B1DA7E1F7B804300202CCA /* MaskWithColorViewController.m in Sources */,
 				58B1DA371F79EB8F00202CCA /* RectanglesView.m in Sources */,
+				58B1DA8E1F7C7F1F00202CCA /* CGLayerDrawingViewController.m in Sources */,
 				58B1DA6D1F7B2BCD00202CCA /* MaskWithImageMaskViewController.m in Sources */,
 				58B1DA3D1F79F4E700202CCA /* PathViewController.m in Sources */,
 				58B1DA611F7A4C0300202CCA /* AxialGradientViewController.m in Sources */,
 				58B1DA281F78994B00202CCA /* LinesView.m in Sources */,
+				58B1DA911F7C7F4E00202CCA /* CGLayerDrawingView.m in Sources */,
 				58B1DA3A1F79EBA600202CCA /* RectanglesViewController.m in Sources */,
 				58B1DA2E1F78AD9300202CCA /* ArcsView.m in Sources */,
 				58B1DA2B1F78AD7B00202CCA /* ArcsViewController.m in Sources */,

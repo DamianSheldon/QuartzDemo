@@ -24,6 +24,7 @@
 #import "MaskWithImageViewController.h"
 #import "MaskWithColorViewController.h"
 #import "MaskWithClipViewController.h"
+#import "CGLayerDrawingViewController.h"
 
 #import "Scene.h"
 
@@ -195,7 +196,7 @@ static NSString *const sChapterCoreGraphicsLayerDrawing = @"Core Graphics Layer 
                             [[Scene alloc] initWithTitle:@"Clipping Context" class:[MaskWithClipViewController class]]
                             ],
                     sChapterCoreGraphicsLayerDrawing: @[
-                            [[Scene alloc] initWithTitle:@"Core Graphics Layer Drawing" class:[UIViewController class]]
+                            [[Scene alloc] initWithTitle:@"Core Graphics Layer Drawing" class:[CGLayerDrawingViewController class]]
                             ]
                     };
     }
