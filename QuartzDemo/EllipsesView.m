@@ -25,28 +25,16 @@
     
     CGContextAddEllipseInRect(ctx, r);
     
-    CGFloat w = CGRectGetWidth(r), h = CGRectGetHeight(r);
+    // Implement 90 rotate of ellipse with transform
+    CGContextSaveGState(ctx);
     
-    r.origin.x = 0.5 * (CGRectGetWidth(rect) - h);
-    r.origin.y = 0.5 * (CGRectGetHeight(rect) - w);
-    
-    r.size.width = h;
-    r.size.height = w;
+    CGContextRotateCTM(ctx, M_PI_2);
+
+    CGContextTranslateCTM(ctx, 0.5 * (CGRectGetHeight(rect) - CGRectGetWidth(rect)), -(0.5 * (CGRectGetHeight(rect) - CGRectGetWidth(rect)) + CGRectGetWidth(rect)));
     
     CGContextAddEllipseInRect(ctx, r);
     
-    // How to implement this rotate with transform?
-//    CGContextSaveGState(ctx);
-//    
-//    CGContextRotateCTM(ctx, M_PI_2);
-//
-////    CGContextTranslateCTM(ctx, 0.5 * (CGRectGetWidth(rect) + CGRectGetHeight(r)) , -0.5 * (CGRectGetHeight(rect) - CGRectGetHeight(r)));
-//
-//    CGContextTranslateCTM(ctx, -(0.5 * (CGRectGetHeight(rect) - CGRectGetWidth(rect)) + CGRectGetWidth(rect)), 0);
-//    
-//    CGContextAddEllipseInRect(ctx, r);
-//    
-//    CGContextRestoreGState(ctx);
+    CGContextRestoreGState(ctx);
     
     CGContextSetRGBStrokeColor(ctx, 1.0, 1.0, 1.0, 1.0);
     CGContextStrokePath(ctx);
