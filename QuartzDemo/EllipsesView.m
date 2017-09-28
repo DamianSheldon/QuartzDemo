@@ -40,8 +40,10 @@
 //    
 //    CGContextRotateCTM(ctx, M_PI_2);
 //
-//    CGContextTranslateCTM(ctx, 0.5 * (CGRectGetWidth(rect) + CGRectGetHeight(r)) , -0.5 * (CGRectGetHeight(rect) - CGRectGetHeight(r)));
+////    CGContextTranslateCTM(ctx, 0.5 * (CGRectGetWidth(rect) + CGRectGetHeight(r)) , -0.5 * (CGRectGetHeight(rect) - CGRectGetHeight(r)));
 //
+//    CGContextTranslateCTM(ctx, -(0.5 * (CGRectGetHeight(rect) - CGRectGetWidth(rect)) + CGRectGetWidth(rect)), 0);
+//    
 //    CGContextAddEllipseInRect(ctx, r);
 //    
 //    CGContextRestoreGState(ctx);
