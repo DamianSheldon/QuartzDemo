@@ -26,6 +26,7 @@
 #import "MaskWithClipViewController.h"
 #import "CGLayerDrawingViewController.h"
 #import "CurvesViewController.h"
+#import "TransformsViewController.h"
 
 #import "Scene.h"
 
@@ -171,7 +172,7 @@ static NSString *const sChapterCoreGraphicsLayerDrawing = @"Core Graphics Layer 
                             [[Scene alloc] initWithTitle:@"Device Color Spaces" class:[ColorSpacesViewController class]]
                             ],
                     sChapterTransforms: @[
-                            [[Scene alloc] initWithTitle:@"Transforms" class:[UIViewController class]]
+                            [[Scene alloc] initWithTitle:@"Transforms" class:[TransformsViewController class]]
                             ],
                     sChapterPatterns: @[
                             [[Scene alloc] initWithTitle:@"Colored Patterns" class:[ColoredPatternsViewController class]],
