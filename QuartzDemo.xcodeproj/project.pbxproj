@@ -56,6 +56,8 @@
 		58B1DA8B1F7B954600202CCA /* the_mask.gif in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DA8A1F7B954600202CCA /* the_mask.gif */; };
 		58B1DA8E1F7C7F1F00202CCA /* CGLayerDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA8D1F7C7F1F00202CCA /* CGLayerDrawingViewController.m */; };
 		58B1DA911F7C7F4E00202CCA /* CGLayerDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA901F7C7F4E00202CCA /* CGLayerDrawingView.m */; };
+		58B1DA941F7CA43400202CCA /* CurvesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA931F7CA43400202CCA /* CurvesViewController.m */; };
+		58B1DA971F7CA44C00202CCA /* CurvesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA961F7CA44C00202CCA /* CurvesView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +164,10 @@
 		58B1DA8D1F7C7F1F00202CCA /* CGLayerDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLayerDrawingViewController.m; sourceTree = "<group>"; };
 		58B1DA8F1F7C7F4E00202CCA /* CGLayerDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLayerDrawingView.h; sourceTree = "<group>"; };
 		58B1DA901F7C7F4E00202CCA /* CGLayerDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLayerDrawingView.m; sourceTree = "<group>"; };
+		58B1DA921F7CA43400202CCA /* CurvesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurvesViewController.h; sourceTree = "<group>"; };
+		58B1DA931F7CA43400202CCA /* CurvesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurvesViewController.m; sourceTree = "<group>"; };
+		58B1DA951F7CA44C00202CCA /* CurvesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurvesView.h; sourceTree = "<group>"; };
+		58B1DA961F7CA44C00202CCA /* CurvesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurvesView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,6 +273,8 @@
 				58B1DA241F7898A700202CCA /* LinesViewController.m */,
 				58B1DA291F78AD7B00202CCA /* ArcsViewController.h */,
 				58B1DA2A1F78AD7B00202CCA /* ArcsViewController.m */,
+				58B1DA921F7CA43400202CCA /* CurvesViewController.h */,
+				58B1DA931F7CA43400202CCA /* CurvesViewController.m */,
 				58B1DA2F1F78DE4400202CCA /* EllipsesViewController.h */,
 				58B1DA301F78DE4400202CCA /* EllipsesViewController.m */,
 				58B1DA381F79EBA600202CCA /* RectanglesViewController.h */,
@@ -312,6 +320,8 @@
 				58B1DA271F78994B00202CCA /* LinesView.m */,
 				58B1DA2C1F78AD9300202CCA /* ArcsView.h */,
 				58B1DA2D1F78AD9300202CCA /* ArcsView.m */,
+				58B1DA951F7CA44C00202CCA /* CurvesView.h */,
+				58B1DA961F7CA44C00202CCA /* CurvesView.m */,
 				58B1DA321F78DE6000202CCA /* EllipsesView.h */,
 				58B1DA331F78DE6000202CCA /* EllipsesView.m */,
 				58B1DA351F79EB8F00202CCA /* RectanglesView.h */,
@@ -484,6 +494,7 @@
 				58B1DA4F1F7A3B3300202CCA /* StencilPatternsView.m in Sources */,
 				58B1DA401F79F4FD00202CCA /* PathView.m in Sources */,
 				58B1D9B91F739FFE00202CCA /* main.m in Sources */,
+				58B1DA971F7CA44C00202CCA /* CurvesView.m in Sources */,
 				58B1DA891F7B8E5A00202CCA /* MaskWithClipView.m in Sources */,
 				58B1DA701F7B2BE600202CCA /* MaskWithImageMaskOperation.m in Sources */,
 				58B1DA7E1F7B804300202CCA /* MaskWithColorViewController.m in Sources */,
@@ -493,6 +504,7 @@
 				58B1DA3D1F79F4E700202CCA /* PathViewController.m in Sources */,
 				58B1DA611F7A4C0300202CCA /* AxialGradientViewController.m in Sources */,
 				58B1DA281F78994B00202CCA /* LinesView.m in Sources */,
+				58B1DA941F7CA43400202CCA /* CurvesViewController.m in Sources */,
 				58B1DA911F7C7F4E00202CCA /* CGLayerDrawingView.m in Sources */,
 				58B1DA3A1F79EBA600202CCA /* RectanglesViewController.m in Sources */,
 				58B1DA2E1F78AD9300202CCA /* ArcsView.m in Sources */,

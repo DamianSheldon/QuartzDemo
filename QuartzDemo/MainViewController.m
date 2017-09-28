@@ -25,6 +25,7 @@
 #import "MaskWithColorViewController.h"
 #import "MaskWithClipViewController.h"
 #import "CGLayerDrawingViewController.h"
+#import "CurvesViewController.h"
 
 #import "Scene.h"
 
@@ -161,7 +162,7 @@ static NSString *const sChapterCoreGraphicsLayerDrawing = @"Core Graphics Layer 
                     sChapterPaths: @[
                             [[Scene alloc] initWithTitle:@"Lines" class:[LinesViewController class]],
                             [[Scene alloc] initWithTitle:@"Arcs" class:[ArcsViewController class]],
-                            [[Scene alloc] initWithTitle:@"Curves" class:[UIViewController class]],
+                            [[Scene alloc] initWithTitle:@"Curves" class:[CurvesViewController class]],
                             [[Scene alloc] initWithTitle:@"Ellipses" class:[EllipsesViewController class]],
                             [[Scene alloc] initWithTitle:@"Rectangles" class:[RectanglesViewController class]],
                             [[Scene alloc] initWithTitle:@"Path" class:[PathViewController class]]
