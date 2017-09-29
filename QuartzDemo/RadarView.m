@@ -30,7 +30,8 @@ static NSString *const sRotateAnimationKey = @"sRotateAnimationKey";
         return nil;
     
     self.backgroundColor = [UIColor whiteColor];
-
+    self.contentMode = UIViewContentModeRedraw;
+    
     [self setOpaque:NO];
     
 //    NSArray *colors = @[

@@ -9,21 +9,6 @@
 #import "ConicalLayer.h"
 
 @implementation ConicalLayer
-{
-    BOOL _needsDisplayOnBoundsChange;
-}
-
-- (id)init
-{
-    if (!(self = [super init])) {
-        return nil;
-    }
-    
-//    self.needsDisplayOnBoundsChange = YES;
-    _needsDisplayOnBoundsChange = YES;
-    
-    return self;
-}
 
 - (void)drawInContext:(CGContextRef)ctx
 {
@@ -191,16 +176,6 @@
 // Precise method, which guarantees v = v1 when t = 1.
 static inline uint8_t lerp(uint8_t v0, uint8_t v1, float t) {
     return (1 - t) * v0 + t * v1;
-}
-
-- (BOOL)needsDisplayOnBoundsChange
-{
-    return _needsDisplayOnBoundsChange;
-}
-
-- (void)setNeedsDisplayOnBoundsChange:(BOOL)needsDisplayOnBoundsChange
-{
-//    _needsDisplayOnBoundsChange = needsDisplayOnBoundsChange;
 }
 
 @end
