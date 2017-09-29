@@ -44,6 +44,8 @@
     CGContextAddRect(ctx, r);
     CGContextAddEllipseInRect(ctx, r);
 
+    NSLog(@"Modified CTM:%@\n", NSStringFromCGAffineTransform(CGContextGetCTM(ctx)));
+
     CGContextRestoreGState(ctx);
     
     CGContextSetRGBStrokeColor(ctx, 1.0, 1.0, 1.0, 1.0);
@@ -51,6 +53,25 @@
     
     CGContextSetRGBFillColor(ctx, 1.0, 0, 0, 1.0);
     CGContextFillPath(ctx);
+    
+    // {a, b, c, d, tx, ty}
+    NSLog(@"UIKit CTM:%@\n", NSStringFromCGAffineTransform(CGContextGetCTM(ctx)));
+    
+    CGContextSaveGState(ctx);
+    
+    CGContextTranslateCTM(ctx, 0, CGRectGetHeight(rect));
+    NSLog(@"Quartz part 1 CTM:%@\n", NSStringFromCGAffineTransform(CGContextGetCTM(ctx)));
+
+    CGContextScaleCTM(ctx, 1, -1);
+    NSLog(@"Quartz CTM:%@\n", NSStringFromCGAffineTransform(CGContextGetCTM(ctx)));
+
+    CGContextTranslateCTM(ctx, 0, CGRectGetHeight(rect));
+    NSLog(@"UIKit part 1 CTM:%@\n", NSStringFromCGAffineTransform(CGContextGetCTM(ctx)));
+    
+    CGContextScaleCTM(ctx, 1, -1);
+    NSLog(@"UIKit part 2 CTM:%@\n", NSStringFromCGAffineTransform(CGContextGetCTM(ctx)));
+    
+    CGContextRestoreGState(ctx);
 }
 
 @end
