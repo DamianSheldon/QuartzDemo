@@ -60,6 +60,7 @@
 		58B1DA971F7CA44C00202CCA /* CurvesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA961F7CA44C00202CCA /* CurvesView.m */; };
 		58B1DA9A1F7CD54100202CCA /* TransformsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA991F7CD54100202CCA /* TransformsViewController.m */; };
 		58B1DA9D1F7CD55D00202CCA /* TransformsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DA9C1F7CD55D00202CCA /* TransformsView.m */; };
+		58D5DF402057CA63005033FC /* CoreTextCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D5DF3F2057CA63005033FC /* CoreTextCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +175,8 @@
 		58B1DA991F7CD54100202CCA /* TransformsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformsViewController.m; sourceTree = "<group>"; };
 		58B1DA9B1F7CD55D00202CCA /* TransformsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformsView.h; sourceTree = "<group>"; };
 		58B1DA9C1F7CD55D00202CCA /* TransformsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformsView.m; sourceTree = "<group>"; };
+		58D5DF3E2057CA63005033FC /* CoreTextCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreTextCircleView.h; sourceTree = "<group>"; };
+		58D5DF3F2057CA63005033FC /* CoreTextCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTextCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -356,6 +359,8 @@
 				58B1DA901F7C7F4E00202CCA /* CGLayerDrawingView.m */,
 				58B1DA9B1F7CD55D00202CCA /* TransformsView.h */,
 				58B1DA9C1F7CD55D00202CCA /* TransformsView.m */,
+				58D5DF3E2057CA63005033FC /* CoreTextCircleView.h */,
+				58D5DF3F2057CA63005033FC /* CoreTextCircleView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -509,6 +514,7 @@
 				58B1DA971F7CA44C00202CCA /* CurvesView.m in Sources */,
 				58B1DA891F7B8E5A00202CCA /* MaskWithClipView.m in Sources */,
 				58B1DA701F7B2BE600202CCA /* MaskWithImageMaskOperation.m in Sources */,
+				58D5DF402057CA63005033FC /* CoreTextCircleView.m in Sources */,
 				58B1DA7E1F7B804300202CCA /* MaskWithColorViewController.m in Sources */,
 				58B1DA371F79EB8F00202CCA /* RectanglesView.m in Sources */,
 				58B1DA8E1F7C7F1F00202CCA /* CGLayerDrawingViewController.m in Sources */,
