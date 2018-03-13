@@ -80,6 +80,21 @@
         
         CGImageRef twoTigerMaskImage = CGImageSourceCreateImageAtIndex(imageSource, 0, NULL);
         
+        CGColorSpaceRef cs = CGImageGetColorSpace(twoTigerMaskImage);
+        if (kCGColorSpaceModelMonochrome != CGColorSpaceGetModel(cs)) {
+            CGColorSpaceRef monochrome = CGColorSpaceCreateWithName(kCGColorSpaceGenericGrayGamma2_2);
+            size_t width = CGImageGetWidth(twoTigerMaskImage);
+            size_t height = CGImageGetHeight(twoTigerMaskImage);
+            CGContextRef context = CGBitmapContextCreate(nil, width, height, 8, CGImageGetWidth(twoTigerMaskImage), monochrome, 0);
+            if (context) {
+                CGContextDrawImage(context, CGRectMake(0, 0, width, height), twoTigerMaskImage);
+                CGImageRelease(twoTigerMaskImage);
+                twoTigerMaskImage = CGBitmapContextCreateImage(context);
+                
+                CGContextRelease(context);
+            }
+        }
+        
         CFRelease(imageSource);
         
         CFURLRef urlOfTwoTiger = CFBundleCopyResourceURL(mainBundle, CFSTR("two_tigers"), CFSTR("gif"), NULL);

@@ -7,6 +7,9 @@ I also implement some pretty cool effect mentioned in this guide that Apple does
 ### Masking an image with an image mask
 ![Masking an image with an image mask](./ScreenShots/Masking-an-image-with-an-image-mask.png)
 
+### Masking an image with an image
+![Masking an image with an image](./ScreenShots/Masking-an-image-with-image.png)
+
 ### Masking an image with color
 ![Masking an image with color](./ScreenShots/Masking-an-image-with-color.png)
 
