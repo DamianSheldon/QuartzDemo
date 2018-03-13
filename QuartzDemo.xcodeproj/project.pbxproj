@@ -726,6 +726,7 @@
 				58B1D9D81F739FFE00202CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58B1D9D91F739FFE00202CCA /* Build configuration list for PBXNativeTarget "QuartzDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -734,6 +735,7 @@
 				58B1D9DB1F739FFE00202CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
